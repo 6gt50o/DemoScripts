@@ -13,7 +13,11 @@ public class AssetPostprocessorManager : AssetPostprocessor
 
     void OnPostprocessAssetbundleNameChanged(string path, string previous, string next)
     {
-
+		// string AtlasName =  new DirectoryInfo(Path.GetDirectoryName(assetPath)).Name;
+		// TextureImporter textureImporter  = assetImporter as TextureImporter;
+		// textureImporter.textureType = TextureImporterType.Sprite;
+		// textureImporter.spritePackingTag = AtlasName;
+		// textureImporter.mipmapEnabled = false;
     }
 
     void OnPreprocessTexture()
